@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: "Minimalist", sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.topnav img.split {
+    width: 8rem;
+    height: 5rem;
+    float: right;
+}
+
+.topnav {
+  background-color: rgb(209, 182, 27);
+  overflow: hidden;
+  height: 5rem;
+  margin-bottom: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ff0000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  height: 5rem;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #7e1717;
+  color: rgb(255, 255, 255);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+section img.happymeal {
+  width: 35%;
+  height: 35%;
+  float: left;
+}
+
+section.happymealbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.happymealbox span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+section.happymealbox div.desc {
+  font-size: 20px;
+  margin-top: 75px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(209, 182, 27);
+}
+
+section.happymealbox label,
+section.happymealbox span {
+  font-weight: bold;
+  color: red;
+}
+
+section.grimaceshake {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.grimaceshake img {
+  margin-top: 90px;
+  width: 35%;
+  height: 35%;
+  float: left;
+}
+
+section.grimaceshake span {
+  font-size: 30px;
+  font-weight: bold;
+  color: purple;
+}
+
+section.grimaceshake div.desc {
+  font-size: 20px;
+}
+
+section.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
